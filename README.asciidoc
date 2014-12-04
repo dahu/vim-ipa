@@ -1,0 +1,36 @@
+Vim-IPA
+-------
+
+:conv: &#8596;
+
+__Antimoon ASCII Phonetic Alphabet {conv} IPA__
+
+**Requires https://github.com/dahu/vimple[Vimple]**
+
+TIP: If you like Vim-IPA and want to share the W00t!, I'm grateful for
+https://www.gittip.com/bairuidahu/[tips] or
+http://of-vim-and-vigor.blogspot.com/[beverages].
+
+Vim-IPA is a tiny plugin that converts between the
+http://www.antimoon.com/how/pronunc-ascii.htm[ASCII Phonetic Alphabet]
+and
+http://en.wikipedia.org/wiki/International_Phonetic_Alphabet_chart_for_English_dialectsa[IPA].
+
+=== Visual Maps
+
+* `<leader>i2a` -- converts the visual selection from IPA to ASCII-PA
+* `<leader>a2i` -- converts the visual selection from ASCII-PA to IPA
+
+=== Functions
+
+* IPA2ASC(str)
+* ASC2IPA(str)
+* IPATable() -- Prints a list of IPA {conv} ASCII-PA equivalences
+
+=== Commands
+
+* IPATable -- Prints a list of IPA {conv} ASCII-PA equivalences
++
+TIP: Best used with the Vimple `:View` command, as in:
++
+  :View IPATable
